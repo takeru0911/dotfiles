@@ -18,6 +18,7 @@
 (define-key helm-read-file-map (kbd "<tab>") 'helm-execute-persistent-action)
 (define-key global-map (kbd "C-x C-h") 'helm-recentf)
 (define-key global-map (kbd "C-x C-m") 'helm-imenu-anywhere)
+(defile-key golobal-map(kbd "C-x k") 'helm-show-kill-ring)
 (define-key global-map (kbd "M-h") 'helm-complex-command-history)
 (global-ace-isearch-mode 1)
 ;(require 'helm-migemo)

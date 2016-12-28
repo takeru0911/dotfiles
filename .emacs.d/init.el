@@ -7,6 +7,7 @@
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
 
+
 (set-language-environment "Japanese")
 (prefer-coding-system 'utf-8)
 (setq-default c-basic-offset 2)
@@ -28,7 +29,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (yasnippet web-mode wanderlust volatile-highlights undo-tree typescript twittering-mode twilight-theme twig-mode tss tide tern-auto-complete swoop swap-buffers smooth-scrolling smooth-scroll smartrep smartparens session rainbow-delimiters rainbow-blocks quickrun popwin php-mode php-completion paredit org-gcal multiple-cursors multi-term minibuf-isearch markdown-mode js2-mode jedi-direx init-loader indent-guide imenus imenu-anywhere hlinum helm-projectile helm-migemo helm-flymake google-translate foreign-regexp flymake-coffee flycheck-pos-tip farmhouse-theme expand-region eproject dirtree company color-theme coffee-mode calfw auto-highlight-symbol anzu ace-isearch)))
+    (magit yasnippet web-mode wanderlust volatile-highlights undo-tree typescript twittering-mode twilight-theme twig-mode tss tide tern-auto-complete swoop swap-buffers smooth-scrolling smooth-scroll smartrep smartparens session rainbow-delimiters rainbow-blocks quickrun popwin php-mode php-completion paredit org-gcal multiple-cursors multi-term minibuf-isearch markdown-mode js2-mode jedi-direx init-loader indent-guide imenus imenu-anywhere hlinum helm-projectile helm-migemo helm-flymake google-translate foreign-regexp flymake-coffee flycheck-pos-tip farmhouse-theme expand-region eproject dirtree company color-theme coffee-mode calfw auto-highlight-symbol anzu ace-isearch)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces

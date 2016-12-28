@@ -29,3 +29,17 @@
 (setq indent-guide-delay 0.1)
 (setq indent-guide-recursive t)
 (add-hook 'prog-mode-hook 'indent-guide-mode)
+
+;;linum
+(global-linum-mode t)
+(hlinum-activate)
+(require 'hlinum)
+(set-face-attribute 'linum nil
+                    :foreground "#bf616a"
+                    :height 0.9)
+;; 行番号フォーマット
+(setq linum-format "%4d")
+(show-paren-mode t)
+(setq show-paren-delay 0)
+(setq show-paren-style 'expression)
+
