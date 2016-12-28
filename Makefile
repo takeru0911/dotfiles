@@ -14,3 +14,5 @@ install:
 	cd typescript-tools && \
 	$(NPM) install -g
 	$(PIP) install jedi epc
+sync:
+	rsync -v -r ~/.emacs.d/ ~/dotfiles/.emacs.d/
