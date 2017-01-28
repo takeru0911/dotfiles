@@ -1,7 +1,9 @@
 (require 'helm-config)
 (require 'quickrun)
 (global-set-key (kbd "C-x C-r") 'quickrun)
+
 (helm-mode 1)
+(global-ace-isearch-mode 1)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -20,7 +22,7 @@
 (define-key global-map (kbd "C-x C-m") 'helm-imenu-anywhere)
 (defile-key golobal-map(kbd "C-x k") 'helm-show-kill-ring)
 (define-key global-map (kbd "M-h") 'helm-complex-command-history)
-(global-ace-isearch-mode 1)
+
 ;(require 'helm-migemo)
 ;;;;; ‚±‚ÌC³‚ª•K—v
 ;(with-eval-after-load "helm-migemo"
