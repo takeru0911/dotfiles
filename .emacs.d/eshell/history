@@ -1,0 +1,17 @@
+cd
+ls
+cd git/dpg_recommender/
+ls
+make compile 
+make compile
+make compile
+make compile
+make compile
+make compile
+make compile
+make compile
+make compile
+make compile
+make compile
+ls
+cp /vagrant/tech-assesment-19-img/dwh.jpg  ./
