@@ -16,3 +16,5 @@ install:
 	$(PIP) install jedi epc
 sync:
 	rsync -v -r ~/.emacs.d/ ~/dotfiles/.emacs.d/
+sync_r:
+	rsync -v -r ~/dotfiles/.emacs.d/ ~/.emacs.d/
